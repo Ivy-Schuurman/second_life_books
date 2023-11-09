@@ -1,0 +1,181 @@
+/*overall*/
+@font-face {
+    font-family: "lostar";
+    src: url(".../fonts/lostar.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Aladin-Regular";
+    src: url(".../fonts/Aladin-Regular.ttf") format(truetype);
+}
+
+h1 {
+    font-family: 'lostar';
+    color: #fbefc7;
+}
+
+h2 {
+    font-family: 'lostar';
+    color: #b43a45;
+}
+
+h3 {
+    font-family: 'lostar';
+}
+
+p {
+    font-family: 'Aladin-Regular';
+    color: black; 
+}
+
+img {
+    border-radius: .5em;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 4rem;
+    background-color: #b43a45;
+    color: #fbefc7;
+    transition: 300ms ease;
+    border-radius: .3em;
+    padding: .25em;
+    text-decoration: none;
+    display: flex;
+}
+
+/*header*/
+header {
+    background-color: #773a4c;
+    margin: 0;
+    padding: .5em;
+}
+
+header img {
+    position: absolute;
+    top: 1em;
+    left: 19em;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    background-color: #b43a45;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 1em;    
+    padding: .5em
+}
+
+li {
+    list-style-type: none;
+    padding: .5em;
+    display: flex;
+    justify-content: right;
+}
+
+header a {
+    text-decoration: none;
+    color: #fbefc7;
+}
+
+/*main*/
+main {
+    background-color: #fbefc7;
+    margin: 0; 
+    padding: 1em;
+}
+
+/*home page*/
+.home section {
+    background-color: #e9c46b;
+    border-radius: 1em;
+    padding: .5em;
+    margin-top: 1em;
+}
+
+.home section p {
+    background-color: #f283a3;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.home a {
+    text-decoration: none;
+    background-color: #b43a45;
+    color: #fbefc7;
+    font-family: 'lostar';
+    border-radius: 1em;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+}
+
+/*reviews page*/
+.reviews p {
+    color: #b43a45;
+}
+
+.reviews section {
+    background-color: #f283a3;
+    border-radius: 1em;
+    padding: .5em; 
+    margin-top: .5em;
+}
+
+.reviews section p {
+    color: #000000;
+    font-family: 'Aladin-Regular';
+}
+
+.reviews a {
+    text-decoration: none;
+    background-color: #b43a45;
+    color: #fbefc7;
+    font-family: 'lostar';
+    border-radius: 1em;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+}
+
+/*locations page*/
+.locations p {
+    color: #b43a45;
+}
+
+.locations section {
+    background-color: #e9c46b;
+    border-radius: 1em;
+    padding: .5em; 
+    margin-top: .5em;
+}
+
+.locations section p {
+    color: #000000;
+    font-family: 'Aladin-Regular';
+}
+
+.locations a {
+    text-decoration: none;
+    background-color: #b43a45;
+    color: #fbefc7;
+    font-family: 'lostar';
+    border-radius: 1em;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+footer {
+    background-color: #773a4c;
+    padding: 1em;
+}
+
+footer p {
+    color: #fbefc7;
+}
+
+
+
